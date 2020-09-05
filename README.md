@@ -3,7 +3,9 @@
 _Fully customizable blog template with a React.js front-end._
 
 Deployed from [sanity.io/create](https://www.sanity.io/create/?template=sanity-io%2Fsanity-template-gatsby-blog).
+
 Studio: [![Netlify Status](https://api.netlify.com/api/v1/badges/17d88b03-f1ba-458b-9cf6-ecb3ef15f6f9/deploy-status)](https://app.netlify.com/sites/showcase-studio/deploys)
+
 Web: [![Netlify Status](https://api.netlify.com/api/v1/badges/1a0b10a1-17a4-495c-80ae-08061b85f635/deploy-status)](https://app.netlify.com/sites/showcase-web/deploys)
 
 ## What you have
