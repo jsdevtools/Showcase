@@ -30,7 +30,7 @@ export default {
         data: [
           {
             title: 'GitHub repo',
-            value: 'https://github.com/JEStaubach/Showcase',
+            value: 'https://github.com/jsdevtools/Showcase',
             category: 'Code'
           },
           { title: 'Frontend', value: 'https://showcase-web.netlify.app', category: 'apps' }
