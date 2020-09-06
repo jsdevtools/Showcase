@@ -56,7 +56,8 @@ export default {
       options: {hotspot: true}
     },
     {
-      type: 'code'
+      type: 'code',
+      title: 'code'
     }
   ]
 }
