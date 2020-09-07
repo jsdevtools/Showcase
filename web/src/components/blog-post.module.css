@@ -1,7 +1,8 @@
 @import '../styles/custom-media.css';
 @import '../styles/custom-properties.css';
 
-.root {}
+.root {
+}
 
 .title {
   composes: responsiveTitle1 from './typography.module.css';
@@ -26,15 +27,20 @@
 }
 
 .grid {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
   @media (--media-min-medium) {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-column-gap: 2em;
-    grid-template-columns: 3fr 1fr;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    grid-column-gap: 1em;
   }
 }
 
 .mainContent {
+  min-width: 0px;
+  flex: 1 1 auto;
   @nest & a {
     color: var(--color-accent);
 
@@ -60,6 +66,11 @@
 }
 
 .metaContent {
+  position: relative;
+  flex: 1 1 auto;
+  @media (--media-min-medium) {
+    flex: 1 1 auto;
+  }
 }
 
 .publishedAt {
